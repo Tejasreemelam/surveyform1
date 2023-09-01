@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <h1 id="title"> Geeks for Geeks Survey Form</h1>
+   <p id="description">Thank you for taking the time to help us improve the patform.</p>
+   <form id="survey-form">
+     <fieldset>
+       <div class="head">
+      <label id="name-label" for="name">Name<input id="name" required type="text"placeholder="Enter your name"></label>
+      </div>
+      <div class="email">
+      
+       <label for="email" id="email-label">Email<input required type="email" placeholder="Enter your email"id="email"></label>
+       </div>
+       <div class="number">
+      <label  id="number-label"for="number">Age<input type="number" id="number" placeholder="Optional"min="18"max="100"></label>
+      </div>
+       Which  option best describes you?
+      <div class="select">
+     
+      <select id="dropdown">
+        <option value="">(Select current role)</option>
+        <option value="1">Student</option>
+        <option value="2">Proffesor</option>
+        <option value="3">FullTime Job</option>
+        <option value="4">Part Time Learner</option>
+      </select>
+      </div>
+      Would you like to share this to your friends?
+      <div class="radio">
+      
+      <label for="definte"><input type="radio"name="share"value="1"id="definte">Definately</label>
+      <label for="maybe"><input type="radio"name="share"value="2"id="maybe">Maybe</label>
+      <label for="not sure"><input type="radio" name="share" value="3"id="not sure">Not sure</label>
+      </div>
+      
+      <div class="select1">
+        What is your favourite feature in Geeks for Geeks
+<select>
+   <option value="">(Select an option)</option>
+        <option value="1">Challenges</option>
+        <option value="2">Projects</option>
+        <option value="3">Lectures</option>
+        <option value="4">Examples</option>
+</select>
+</div>
+      <div class="checkbox">
+        What would you like to see improved?(check all that apply)
+      <label for="html"><input type="checkbox" value="1"name="html"id="html">HTML</label>
+      <label for="dbms"><input type="checkbox"name="maybe" value="2"id="maybe">DBMS</label>
+      <label for="os"><input type="checkbox" value="3" name="os" id="pl">Operating System </label>
+      <label for="pl"><input type="checkbox" value="4" name="program" id="pl">Programing Languages</label>
+       <label for="ds"><input type="checkbox" value="5" name="ds" id="pl">Data Structures</label>
+       <label for="daa"><input type="checkbox" value="6" name="daa" id="pl">Data Algorithms</label>
+       <label for="coa"><input type="checkbox" value="7" name="coa" id="pl">Computer Architecture</label>
+        </div>
+        <div class="comments">
+          
+      <label for="comments" >Any comments or suggestions?  <textarea id="comments" name="comments"
+    rows="3"cols="50"        placeholder="Enter your coments here....">
+          </textarea>
+          </label>
+        </div>
+        <div class="submit">
+      <label for="submit"><input type="submit" id="submit"></label>
+        </div>
+     </fieldset>
+
+   </body>
+  </html>
+  
+

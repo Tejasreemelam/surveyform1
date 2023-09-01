@@ -1,0 +1,49 @@
+body{
+    background-color:rgba(255, 228, 196, 0.479);
+  }
+  h1,p{
+    text-align:center;
+    color:rgba(0,100,0,0.6);
+  }
+  #survey-form{
+  width:50%;
+  margin:auto;
+  display:block;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 20px;
+    border:6px rgba(0,100,0,0.9);
+    font-size:19px;
+    padding:20px;
+  
+  }
+  .head,.email,.number{
+    display:grid;
+    padding-bottom:15px;
+    
+  }
+  .select{
+    padding:10px;
+  }
+  .radio{
+    display:grid;
+    padding:8px;
+  }
+  .checkbox{
+    display:grid;
+    padding:10px;
+  }
+  input,textarea,select{
+    background-color:rgba(0,100,0,0.2);
+    color:rgba(0,100,0,0.6);
+  }
+  .submit{
+    text-align:center;
+  }
+  .select1{
+    padding:10px;
+  }
+  .comments{
+    width:unset;
+    padding:10px;
+  }
